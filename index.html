@@ -1,27 +1,118 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
-  	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
-  	<link href="styles/style.css" rel="stylesheet" type="text/css">
-    <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
-  <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+<!DOCTYPE html>
 
-    <p id="my-id">At Mozilla, we’re a global community of</p>
 
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
+<html lang="ru">
 
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+<head>
 
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-    <button>Change user</button>
-    <script src="scripts/main.js"></script>
-  </body>
+	<meta charset="utf-8">
+
+	<title>MYLOGO</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=980, maximum-scale=1">
+	<meta name = "format-detection" content = "telephone=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="site-wrap">
+	<header class="main-header">
+		<div class="container">
+			<div class="main-header-wrap">
+				<a href="#" class="main-header-logo">
+					MYLOGO
+				</a>
+				<ul class="main-header-list">
+					<li>
+						<a href="#">Главная</a>
+					</li>
+					<li>
+						<a href="#">Портфолио</a>
+					</li>
+					<li>
+						<a href="#">Услуги</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+				<a href="tel:+74959825364" class="main-header-tel">+7 (495) 982-53-64</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="news">
+			<div class="container">
+				<div class="news-text">
+					<h1>Главный заголовок страницы</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do eiusmod tempor incididunt ut labore </p>
+				</div>
+				<div class="news-list">
+					<div class="news-item news-item-1">
+						<h3>Это тестовая карточка #1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+					</div>
+					<div class="news-item news-item-2">
+						<h3>Это тестовая карточка #2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+					</div>
+					<div class="news-item news-item-3">
+						<h3>Это тестовая карточка #3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+						<a href="#">Узнать больше</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="callback">
+			<div class="container">
+				<div class="callback-wrap">
+					<div class="callback-form-wrap">
+						<h2>Заголовок второй секции</h2>
+						<form action="#" class="callback-form">
+							<input type="text" name="name" placeholder="Имя">
+							<input type="email" name="email" placeholder="E-mail">
+							<input type="tel" name="tel" placeholder="Телефон">
+							<textarea name="text" placeholder="Сообщение"></textarea>
+							<button type="submit" class="btn">Отправить</button>
+							<p>Ваши данные надежно защищены</p>
+						</form>
+					</div>
+					<div class="callback-info">
+						<h3>Заголовок карточки</h3>
+						<div class="callback-info-list">
+							<div class="callback-info-item">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. anim id est laborum</p>
+								<div class="callback-img">
+									<img src="img/callback-info-item-1.jpg" alt="Изображение к статье">
+								</div>
+							</div>
+							<div class="callback-info-item">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. anim id est laborum. em ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="main-footer-wrap">
+				<p class="main-footer-text-1">Все права защищены</p>
+				<a href="#" class="btn-1 main-footer-btn-1">Контурная кнопка</a>
+				<a href="#" class="btn-1 main-footer-btn-2">Контурная кнопка</a>
+				<p class="main-footer-text-2">Отрывок текста на белом фоне</p>
+				<p class="main-footer-text-3">Готово! Я - молодец :)</p>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
 </html>
